@@ -1,0 +1,78 @@
+.todo {
+  background-color: #f0f8ff;
+  border-radius: 8px;
+  border: 1px solid #87cefa;
+  width: 380px;
+}
+.task {
+  width: 300px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.onSubmit {
+  margin-top: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #6495ed;
+}
+.title {
+  width: 300px;
+  display: inline-block;
+  overflow: hidden;
+  word-wrap: break-word;
+  margin-left: 5px;
+}
+.title[data-done="true"] {
+  color: #008000;
+}
+.todo_el {
+  border: 1px solid #add8e6;
+  border-radius: 4px;
+  margin: 5px;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.delete {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #f00;
+  display: inline-block;
+  margin: 5px;
+}
+.delete[data-done="true"] {
+  background-color: #808080;
+  border-color: #808080;
+}
+.delete:hover {
+  background-color: #f00;
+}
+.done {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #008000;
+  display: inline-block;
+  margin: 5px;
+}
+.done:hover {
+  background-color: #008000;
+}
+.done[data-done="true"] {
+  background-color: #008000;
+}
+.foot {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.sort {
+  margin-left: 70px;
+}
+.sorting {
+  margin-left: 15px;
+  cursor: pointer;
+  border: 1px solid #87cefa;
+  border-top: none;
+  border-bottom: none;
+  padding: 0 5px 0 5px;
+}
